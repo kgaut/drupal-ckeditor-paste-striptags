@@ -1,0 +1,6 @@
+name = Drupal Ckeditor Paste Striptags
+description = Ckeditor plugin for stripping html tags on past
+dependencies[] = ckeditor
+package = authoring
+core = 7.x
+files[] = tests/drupal_ckeditor_paste_striptags.test
