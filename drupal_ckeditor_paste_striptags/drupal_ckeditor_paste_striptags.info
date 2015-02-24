@@ -1,4 +1,4 @@
-name = Ckeditor Paste Striptags
+name = Ckeditor striptags on paste
 description = CKeditor plugin for stripping html tags on paste
 dependencies[] = ckeditor
 package = User interface
