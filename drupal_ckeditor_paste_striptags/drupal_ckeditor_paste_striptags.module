@@ -10,5 +10,5 @@
  */
 function drupal_ckeditor_paste_striptags_ckeditor_settings_alter(&$settings, $conf) {
   // Change the ckeditor config path.
-  $settings['customConfig'] = drupal_get_path('module', 'ckeditor') . '/ckeditor.config.js';
+  $settings['customConfig'] = base_path() . drupal_get_path('module', 'drupal_ckeditor_paste_striptags') . '/drupal_ckeditor_paste_striptags.ckeditor.config.js';
 }
